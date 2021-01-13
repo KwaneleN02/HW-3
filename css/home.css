@@ -1,7 +1,50 @@
-body {
-    background-image: url(mountain.png);
+body, html{
+    background: url("background.JPG");
+    margin-left: 0%;
+    min-width: 100%;
+    display: block;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(7, 6, 6);
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+.banner {
+    background-image: url("background.JPG");
+    padding: 250px;
+    margin-left: 0%;
+    margin-top: -1%;
+    box-sizing: content-box;
+    background-size: cover;
+}
+
+/*head, html {
+    background-image: url(blue.jpg);
     height: 100%;
     background-position: center;
-    background-repeat: no-repeat;
-    
+    background-size: cover;
+    background-repeat: cover;
+
+.body, html {
+    margin: 0;
+    padding:0;
+    font-family: san-serif;
+}
+section {
+    padding: 0 100px;
+    background: url(red.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgb (green);*/
 }

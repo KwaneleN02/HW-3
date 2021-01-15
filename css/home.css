@@ -1,13 +1,17 @@
 body, html{
     background-image: url("blue.jpg");
-    background-size: inherit;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     repeat: no-repeat;
     margin: 0%;
     padding: 0%;
 }
 
 .hero {
-    position: relative;
+    position: cover;
     width: 100vw;
     height: 100vh;
     padding: 250;
@@ -61,7 +65,7 @@ body, html{
 .menu {
     overflow: hidden;
     background-color: rgba(0, 0, 255, 0.11);
-    position: relative;
+    position: cover;
 }
 
 /*hidden Links*/
@@ -71,7 +75,7 @@ body, html{
 
 /*styling links*/
 .menu a {
-    color: rgb(0, 12, 0);
+    color: rgb(249, 250, 249);
     font-weight: bolder;
     padding: 14px 85em;
     text-decoration: none;
@@ -107,3 +111,18 @@ body, html{
     font-weight: lighter;
 }
 
+.column1, .column2, .column3, .column4 {
+    border: dashed teal;
+    background-color: rgba(0, 128, 128, 0.336);
+    box-shadow: 5px 5px 5px 5px rgb(1, 36, 36);
+    width: 358px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+.more {
+    text-align: center;
+    color: White;
+
+}

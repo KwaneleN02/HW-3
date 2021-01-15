@@ -1,10 +1,63 @@
 body, html{
     background-image: url("blue.jpg");
+    background-size: inherit;
+    repeat: no-repeat;
+    margin: 0%;
+    padding: 0%;
+}
+
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding: 250;
+    background-image: url("red.png");
     background-size: cover;
 }
 
+.content {
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0.625rem;
+    color: white;
+    content: relative;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 
-/*Hamburger menu style*/
+.title {
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.description {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.action {
+    background-color: rgba(0, 128, 128, 0.062);
+    color: rgb(243, 233, 233);
+    border: 2px solid #0502354f;
+    margin-top: 5rem;
+    padding: 0.9375rem 1.875rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.action:hover {
+    background-color: teal;
+    border: 1px solid #0502354f;
+}
+
+/*menu style*/
 .menu {
     overflow: hidden;
     background-color: rgba(0, 0, 255, 0.11);
@@ -29,5 +82,28 @@ body, html{
 .menu a:hover {
     background-color: rgba(1, 106, 243, 0.082);
     color: rgb(11, 223, 57);
+}
+
+.About {
+    border: solid rgba(14, 1, 59, 0.075);
+    border-width: 2px;
+    padding: 10px 5px 3px 1px;
+    border-style: outset;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(252, 244, 244);
+    margin-left: 125px;
+    margin-right: 125px;
+    background-color: rgba(16, 180, 180, 0.349);
+    box-shadow: 5px 5px 5px 5px rgb(1, 36, 36);
+}
+
+.me {
+    font-family: sans-serif;
+    font-size: .5em;
+    color: black;
+    font-weight: lighter;
 }
 

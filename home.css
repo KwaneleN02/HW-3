@@ -1,0 +1,52 @@
+body, html{
+    background: url("background.JPG");
+    margin-left: 0%;
+    min-width: 100%;
+    display: block;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color:rgb(32, 3, 3);
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+.banner {
+    background-image: url("background.JPG");
+    padding: 250px;
+    margin-left: 0%;
+    margin-top: -1%;
+    box-sizing: content-box;
+    background-size: cover;
+}
+
+.fake-nav {
+    height: 100%;
+    width: 200px;
+    z-index: 1;
+    background-color: rgba(126, 50, 50, 0.178);
+    overflow-x: hidden;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.fake-nav a {
+text-align: center
+margin-top: 0%;
+text-decoration: cyan;
+font-size: large;
+font-weight: bold;
+color: rgb(245, 245, 252);
+display: block;
+box-sizing: border-box;
+
+.fake-nav a: {
+color: lightseagreen;
+}
+
+#h2 {
+    text-decoration: white;
+
+}

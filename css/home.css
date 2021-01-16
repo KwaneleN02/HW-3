@@ -1,6 +1,6 @@
 body, html{
     background-image: url("red.png");
-    height: 500px;
+    min-height: 250px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,6 +8,7 @@ body, html{
     repeat: no-repeat;
     margin: 0%;
     padding: 0%;
+    z-index: 1;
 }
 
 .hero {
@@ -134,11 +135,8 @@ body, html{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 3px solid;
-    margin-left: 580px;
-    margin-right: 250px;
-    margin-bottom: 250px;
-    border-width: 2px;
+    margin-left: 500px;
+    width: 600px;
 
 }
 
@@ -148,7 +146,7 @@ body, html{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 45px;
+    height: 50px;
     background-color: rgba(12, 1, 1, 0.795);
     text-align: center;
     color: white;

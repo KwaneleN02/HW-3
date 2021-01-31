@@ -1,0 +1,50 @@
+body {
+    background-image: url(../img/blue.jpg);
+    min-height: 200%;
+    text-align: center;
+    color: white;
+    font-size: large;
+
+}
+/*Nav background*/
+.nav {
+    background-color: rgba(16, 245, 245, 0.418);
+    overflow: hidden;
+}
+
+/*hover effect*/
+.nav a:hover {
+    background-color: rgba(2, 75, 117, 0.63);
+}
+
+/*styling links*/
+.nav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+h1 {
+    color: rgb(21, 127, 197);
+    text-shadow: rgb(208, 208, 238);
+    font-size: xx-large;
+}
+
+Button {
+  background-color: rgb(6, 205, 240);
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgba(16, 245, 245, 0.418);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+

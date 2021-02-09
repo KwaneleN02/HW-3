@@ -1,0 +1,63 @@
+body {
+    background-image: url(../img/First\ Galaxy\ \(no\ moon\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    color: White;
+}
+
+.p1 {
+    text-align: center;
+    color: White;
+    font-size: larger;
+}
+
+#selection {
+    text-align: center;
+    color: White;
+    font-size: larger;
+}
+
+#username {
+    text-align: center;
+    color: White;
+    font-weight: bold;
+    font-size: larger;
+}
+
+ul {
+    list-style-type: lower-roman;
+    text-align: left;
+    color: white;
+    font-size: larger;
+}
+
+h3 {
+    text-align: left;
+    color: white;
+    font-size: larger;
+}
+
+ button {
+    text-align: center;
+    color: rgb(3, 201, 250);
+    text-decoration-color: ;
+    font-weight: bolder;
+    border-style: solid;
+    border-color: darkturquoise;
+    background-color: rgba(248, 69, 248, 0.37);
+}
+
+button:hover {
+    color: rgb(252, 24, 24);
+}
+
+#username1 {
+    color: rgb(50, 1, 65);
+    font-weight:bold;
+   
+}
+

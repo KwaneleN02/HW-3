@@ -1,0 +1,21 @@
+{
+    "Square": [
+      {
+        "width": "50",
+        "Height": "50",
+        "color": "Black"
+
+      },
+      {
+        "Width": "50",
+        "Height": "50",
+        "color": "Green"
+
+      },
+      {
+        "Width": "50",
+        "Height": "Red",
+        "color": "Maroon"
+      }
+    ]
+  }

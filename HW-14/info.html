@@ -1,0 +1,23 @@
+<html>
+   <head>
+      <title>Node.js</title>
+   </head>
+   
+     <h1>
+       Welcome!
+     </h1>
+     <h2>Please verify your information below for accuracy</h2>
+     <span>
+      <div id="info"></div>
+   </span>
+      <a href="index.html">Return</a>
+     <script>
+         var infoData = document.getElementById('info')
+         new URLSearchParams(window.location.search).forEach((value, name)=> 
+         {
+            infoData.append(`${name}:${value}`)
+            infoData.append(document.createElement('br'))
+         })
+     </script>
+   </body>
+</html>

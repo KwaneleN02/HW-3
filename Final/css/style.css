@@ -1,0 +1,85 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body
+
+{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  /*background-image: url(/img/draw.jpg);*/
+background-image: url(/img/draw.jpg);
+  -webkit-background-size: cover;
+  background-size: auto;
+  background-position: center center;
+  height: 90vh;
+  color: aqua;
+  
+  }
+
+
+
+/*Sizing for the Slideshow*/
+.slide 
+{
+    width: 100%;
+    background-size: cover;
+    background-color: black;
+    min-height: 100%;
+    position: fixed;
+}
+
+/*Style the Nav.*/
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.473);
+  background-color: rgba(0, 0, 0, 0.37);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #00ccff;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #e20000;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}

@@ -1,4 +1,5 @@
 The good: 
+
 Alright, so it is 5:30 AM. You would think someone would not be glad about waking up at 4:30 AM to deal with programming a website because they just don't understand what went wrong. Well, in my case, I am just happy. As happy as anyone can be with their projects. My website is working. So, let's talk about for a sec shall we? 
 
 So, the landing page is welcoming you with a nice transitioning slideshow I did a while back for one of my homeworks. Well, that came back. I had some glitches then, but this time, it seems a lot more pleasant to watch. I have a Hamburger Nav on there because I really don't like the look of a website without a hamburger menu, it should not be a thing. Thanks to W3 schools as a reference for the Nav. 

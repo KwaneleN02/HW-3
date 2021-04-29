@@ -11,8 +11,7 @@ body
   overflow: hidden;
   margin: 0;
   padding: 0;
-  /*background-image: url(/img/draw.jpg);*/
-background-image: url(/img/draw.jpg);
+ background-image: url(/img/draw.jpg);
   -webkit-background-size: cover;
   background-size: auto;
   background-position: center center;

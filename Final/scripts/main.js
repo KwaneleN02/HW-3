@@ -31,11 +31,6 @@ function openNav() {
   $(document).ready(function()
   {
       $('#underline').slideDown(2000);
-      //$('#containerC').fadeIn('3000');
-  });
-
-  $(document).ready(function()
-  {
       $('#containerC').fadeIn(3000);
   });
 
